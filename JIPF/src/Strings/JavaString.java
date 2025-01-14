@@ -7,10 +7,11 @@ public class JavaString {
         String reverString = obj.reverseString("Alpha");
         String vowels = obj.coundVC("humanio");
         String palindrome = obj.palindrome("malayalam");
+        String convertCase = obj.convertCase("Hello");
 
         String subString = obj.findSubString("JavaProgramming", "Pro"); 
 
-        System.out.println( "\n" + subString);
+        System.out.println("The Output Is:" + convertCase);
         
     }
 
@@ -87,6 +88,26 @@ String findSubString(String word,String subStr){
     return "subString Not Found";
 }
     
+
+String convertCase(String word){
+
+    String temp = "";
+    char letter = ' ';
+    for(int i=0;i<word.length();i++){
+        letter = word.charAt(i);
+        if(Character.isUpperCase(letter)){
+            String txt = Character.toString(letter); 
+            temp += txt.toLowerCase();
+  
+        }
+        else{
+            String txt = Character.toString(letter); 
+            temp += txt.toUpperCase();
+        }
+    }
+
+    return temp;
+}
 
 
 
