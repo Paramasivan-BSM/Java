@@ -1,0 +1,137 @@
+Here are some **String manipulation tasks** to practice and strengthen your Java skills:
+
+---
+
+### **Beginner Tasks**
+1. **Reverse a String**  
+   Write a program to reverse a given string.  
+   Example:  
+   Input: `"Java"`  
+   Output: `"avaJ"`
+
+2. **Count Vowels and Consonants**  
+   Count the number of vowels (`a, e, i, o, u`) and consonants in a string.  
+   Example:  
+   Input: `"Programming"`  
+   Output: `Vowels: 3, Consonants: 8`
+
+3. **Check Palindrome**  
+   Determine if a string reads the same forward and backward.  
+   Example:  
+   Input: `"madam"`  
+   Output: `"Palindrome"`
+
+4. **Find Substring**  
+   Check if a substring exists within a string.  
+   Example:  
+   Input: `"Java Programming"`, Substring: `"Pro"`  
+   Output: `"Substring found"`
+
+5. **Convert Case**  
+   Convert all uppercase letters to lowercase and vice versa.  
+   Example:  
+   Input: `"Hello"`  
+   Output: `"hELLO"`
+
+---
+
+### **Intermediate Tasks**
+6. **Remove Duplicates**  
+   Remove duplicate characters from a string.  
+   Example:  
+   Input: `"programming"`  
+   Output: `"progamin"`
+
+7. **Count Words in a Sentence**  
+   Count the number of words in a given sentence.  
+   Example:  
+   Input: `"I love Java programming"`  
+   Output: `4`
+
+8. **Find the Most Frequent Character**  
+   Identify the character that appears the most in a string.  
+   Example:  
+   Input: `"success"`  
+   Output: `"s appears 3 times"`
+
+9. **Sort Characters in a String**  
+   Sort the characters of a string alphabetically.  
+   Example:  
+   Input: `"java"`  
+   Output: `"aajv"`
+
+10. **Anagram Check**  
+    Check if two strings are anagrams (contain the same characters in a different order).  
+    Example:  
+    Input: `"listen"` and `"silent"`  
+    Output: `"Anagrams"`
+
+---
+
+### **Advanced Tasks**
+11. **String Compression**  
+    Compress a string by replacing consecutive repeated characters with their count.  
+    Example:  
+    Input: `"aaabbc"`  
+    Output: `"a3b2c1"`
+
+12. **Longest Substring Without Repeating Characters**  
+    Find the longest substring in a string that has no repeating characters.  
+    Example:  
+    Input: `"abcabcbb"`  
+    Output: `"abc"`
+
+13. **Permutations of a String**  
+    Generate all possible permutations of a given string.  
+    Example:  
+    Input: `"abc"`  
+    Output: `"abc", "acb", "bac", "bca", "cab", "cba"`
+
+14. **Remove a Specific Character**  
+    Remove all occurrences of a given character from a string.  
+    Example:  
+    Input: `"Java Programming"`, Character: `'a'`  
+    Output: `"Jv Progrmming"`
+
+15. **Find the First Non-Repeated Character**  
+    Identify the first character in a string that does not repeat.  
+    Example:  
+    Input: `"swiss"`  
+    Output: `"w"`
+
+---
+
+### **Challenge Tasks**
+16. **Validate a String**  
+    Check if a string contains only letters and digits.  
+    Example:  
+    Input: `"Java123"`  
+    Output: `"Valid"`
+
+17. **Count Occurrences of Each Word**  
+    Count how many times each word appears in a sentence.  
+    Example:  
+    Input: `"Java is fun. Java is powerful."`  
+    Output: `Java: 2, is: 2, fun: 1, powerful: 1`
+
+18. **Check if Two Strings are Rotations**  
+    Determine if one string is a rotation of another.  
+    Example:  
+    Input: `"abcde"` and `"deabc"`  
+    Output: `"Rotations"`
+
+19. **Extract Numbers from a String**  
+    Extract and sum all numbers present in a string.  
+    Example:  
+    Input: `"a1b2c3"`  
+    Output: `6`
+
+20. **Find the Longest Palindromic Substring**  
+    Find the longest substring in a string that is a palindrome.  
+    Example:  
+    Input: `"babad"`  
+    Output: `"bab"`
+
+---
+
+Would you like help solving any of these tasks? 😊
